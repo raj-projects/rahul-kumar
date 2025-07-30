@@ -1,15 +1,26 @@
-// app/blog/[id]/page.tsx
+import { notFound } from "next/navigation";
 
-import BlogPost from "./BlogPost";
-
-export default function BlogPostPage({ params }: { params: { id: string } }) {
-  return <BlogPost postId={params.id} />;
-}
+const posts = [
+  { id: "post-1", title: "Blog 1" },
+  { id: "post-2", title: "Blog 2" },
+  { id: "post-3", title: "Blog 3" },
+];
 
 export async function generateStaticParams() {
-  return [
-    { params: { id: "1" } },
-    { params: { id: "2" } },
-    { params: { id: "3" } },
-  ];
+  return posts.map((post) => ({
+    id: post.id,
+  }));
+}
+
+export default function BlogPost({ params }: { params: { id: string } }) {
+  const post = posts.find((p) => p.id === params.id);
+
+  if (!post) return notFound();
+
+  return (
+    <div>
+      <h1>{post.title}</h1>
+      <p>Post ID: {params.id}</p>
+    </div>
+  );
 }
