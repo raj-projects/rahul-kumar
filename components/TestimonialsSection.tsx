@@ -29,7 +29,7 @@ export default function TestimonialsSection() {
       name: "Sarah Johnson",
       role: "Product Manager at TechCorp",
       content:
-        "Alex delivered exceptional work on our e-commerce platform. His attention to detail and technical expertise exceeded our expectations. The final product was both beautiful and highly functional.",
+        "Rahul delivered exceptional work on our e-commerce platform. His attention to detail and technical expertise exceeded our expectations. The final product was both beautiful and highly functional.",
       avatar:
         "https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20confident%20business%20woman%2C%20product%20manager%2C%20modern%20office%20setting%2C%20friendly%20smile%2C%20professional%20attire%2C%20natural%20lighting%2C%20corporate%20portrait%20photography&width=100&height=100&seq=testimonial-001&orientation=squarish",
       rating: 5,
@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
       name: "Michael Chen",
       role: "CEO at StartupXYZ",
       content:
-        "Working with Alex was a game-changer for our startup. He transformed our vision into a stunning, user-friendly application. His communication skills and technical knowledge are outstanding.",
+        "Working with Rahul was a game-changer for our startup. He transformed our vision into a stunning, user-friendly application. His communication skills and technical knowledge are outstanding.",
       avatar:
         "https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20young%20CEO%20entrepreneur%2C%20startup%20founder%2C%20modern%20business%20attire%2C%20confident%20expression%2C%20clean%20background%2C%20professional%20photography&width=100&height=100&seq=testimonial-002&orientation=squarish",
       rating: 5,
@@ -47,7 +47,7 @@ export default function TestimonialsSection() {
       name: "Emily Rodriguez",
       role: "UX Designer at DesignStudio",
       content:
-        "Alex seamlessly translated our designs into pixel-perfect code. His understanding of both design and development made collaboration effortless. Highly recommended for any web project.",
+        "Rahul seamlessly translated our designs into pixel-perfect code. His understanding of both design and development made collaboration effortless. Highly recommended for any web project.",
       avatar:
         "https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20creative%20UX%20designer%2C%20modern%20design%20studio%20environment%2C%20artistic%20background%2C%20professional%20yet%20creative%20attire%2C%20natural%20lighting%2C%20contemporary%20portrait&width=100&height=100&seq=testimonial-003&orientation=squarish",
       rating: 5,
