@@ -85,7 +85,7 @@ export default function HeroSection() {
             {/* Description */}
             <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
               I create exceptional digital experiences through clean code,
-              innovative design, and user-centered solutions. Let's build
+              innovative design, and user-centered solutions. Let’s build
               something amazing together.
             </p>
 
@@ -136,7 +136,7 @@ export default function HeroSection() {
               </div>
               <div className="group">
                 <div className="text-2xl sm:text-3xl font-bold text-purple-600 dark:text-purple-400 group-hover:scale-110 transition-transform">
-                  3+
+                  8+
                 </div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">
                   Years Experience

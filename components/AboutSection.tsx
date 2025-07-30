@@ -24,10 +24,11 @@ export default function AboutSection() {
   }, []);
 
   const timeline = [
-    { year: "2019", role: "Junior Developer", company: "TechStart Inc." },
-    { year: "2021", role: "Frontend Developer", company: "Digital Solutions" },
-    { year: "2022", role: "Senior Developer", company: "Innovation Labs" },
-    { year: "2024", role: "Lead Frontend Developer", company: "Future Corp" },
+    { year: "2015", role: "Junior Web Developer", company: "TechStart Inc." },
+    { year: "2017", role: "Frontend Developer", company: "Digital Solutions" },
+    { year: "2019", role: "Senior Frontend Developer", company: "Innovation Labs" },
+    { year: "2021", role: "Senior Experience Engineer", company: "Future Corp" },
+    { year: "2025", role: "Lead Experience Engineer", company: "Future Corp" },
   ];
 
   return (
@@ -74,7 +75,7 @@ export default function AboutSection() {
                     Experience
                   </h4>
                   <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                    5+ Years
+                    8+ Years
                   </p>
                 </div>
                 <div className="bg-white/60 dark:bg-gray-800/60 backdrop-blur-md rounded-xl p-6 border border-white/30 dark:border-gray-700/30 text-center">
