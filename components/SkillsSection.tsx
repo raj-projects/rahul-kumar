@@ -29,16 +29,16 @@ export default function SkillsSection() {
       title: 'Frontend',
       skills: [
         { name: 'React', level: 95, icon: 'ri-reactjs-line', color: 'bg-blue-500' },
-        { name: 'TypeScript', level: 90, icon: 'ri-code-s-slash-line', color: 'bg-blue-600' },
         { name: 'Next.js', level: 88, icon: 'ri-nextjs-line', color: 'bg-gray-800' },
-        { name: 'Vue.js', level: 85, icon: 'ri-vuejs-line', color: 'bg-green-500' }
+        { name: 'Angular', level: 85, icon: 'ri-angularjs-line', color: 'bg-red-500' },
+        { name: 'TypeScript', level: 90, icon: 'ri-code-s-slash-line', color: 'bg-blue-600' }
       ]
     },
     {
       title: 'Styling',
       skills: [
         { name: 'Tailwind CSS', level: 92, icon: 'ri-css3-line', color: 'bg-cyan-500' },
-        { name: 'Sass', level: 88, icon: 'ri-css3-line', color: 'bg-pink-500' },
+        { name: 'SCSS', level: 88, icon: 'ri-css3-line', color: 'bg-pink-500' },
         { name: 'Styled Components', level: 85, icon: 'ri-palette-line', color: 'bg-purple-500' },
         { name: 'CSS3', level: 93, icon: 'ri-css3-line', color: 'bg-blue-500' }
       ]
@@ -46,10 +46,19 @@ export default function SkillsSection() {
     {
       title: 'Backend & Tools',
       skills: [
-        { name: 'Node.js', level: 85, icon: 'ri-nodejs-line', color: 'bg-green-600' },
-        { name: 'Git', level: 87, icon: 'ri-git-branch-line', color: 'bg-orange-500' },
-        { name: 'Docker', level: 78, icon: 'ri-computer-line', color: 'bg-blue-600' },
-        { name: 'AWS', level: 75, icon: 'ri-cloud-line', color: 'bg-yellow-500' }
+        { name: 'Node.js', level: 30, icon: 'ri-nodejs-line', color: 'bg-green-600' },
+        { name: 'Nest.js', level: 20, icon: 'ri-computer-line', color: 'bg-blue-600' },
+        { name: 'Docker', level: 15, icon: 'ri-cloud-line', color: 'bg-yellow-500' },
+        { name: 'AWS', level: 30, icon: 'ri-cloud-line', color: 'bg-orange-500' }
+      ]
+    },
+    
+    {
+      title: 'Databases',
+      skills: [
+        { name: 'MySQL', level: 40, icon: 'ri-nodejs-line', color: 'bg-green-600' },
+        { name: 'Mondgo DB', level: 87, icon: 'ri-git-branch-line', color: 'bg-orange-500' },
+        { name: 'NEON', level: 78, icon: 'ri-computer-line', color: 'bg-blue-600' }
       ]
     }
   ];
@@ -63,7 +72,7 @@ export default function SkillsSection() {
             <div className="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
           </div>
           
-          <div className="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-4 gap-8">
             {skillCategories.map((category, categoryIndex) => (
               <div
                 key={category.title}
